@@ -12,4 +12,4 @@ stdin.on('data', data => {
     console.log('А ну, давай-ка еще...');
     writeText.write(data);
   }
-})
+});

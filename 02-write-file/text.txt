@@ -1,6 +1,0 @@
-fff
- exit
-  exit
-\nexit
-\n exit
-exit

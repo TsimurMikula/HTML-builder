@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-fs.mkdir(path.join(__dirname, 'files-copy'), recursive = true, (err) => {
+fs.mkdir(path.join(__dirname, 'files-copy'), { recursive: true }, (err) => {
   if (err) {
     console.log('Папка не создана!');
   }
@@ -35,4 +35,4 @@ function copyDir () {
     }  
   });
 }
-copyDir()
+copyDir();

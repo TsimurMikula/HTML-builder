@@ -21,7 +21,7 @@ fs.readdir(path.join(__dirname, 'styles'), {withFileTypes: true}, (err, files) =
               if (err) {
                 console.log('Ошибка!');
               }
-            })
+            });
           }       
         });
       }
